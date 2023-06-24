@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+.all{
+    border: 2px solid rgb(75, 74, 74);
+    padding: -20px;
+    margin: 5px;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+header img{
+    height: 80px;
+    display: flex;
+    float: left;
+}
+header{
+    background-color: rgb(53, 53, 199);
+    padding: 5px;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    height: 25px;
+    width: 195px;
+    margin-top: 5px;
+
+}
+.tell{
+    border: 2px dotted black;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100px;
+    padding-left: 40px;
+    padding-top: 2px;
+    margin-bottom: 0;
+}
+.buttons button{
+    width: 85px;
+}
+button{
+    background-color: rgb(53, 53, 199);
+    color: white;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 0px solid black;
+    border-top: 0px solid white;
+}
+button:hover{
+    cursor: pointer;
+    border-left: 1px solid black;
+    border-top: 0;
+    border-bottom: 5px solid black;
+}
+.text{
+    color: white;
+}
+.welcome{
+    background-color: rgb(53, 53, 199);
+    height: 20px;
+    margin-top: -19px;
+    /* margin-bottom: -20px; */
+    border-bottom: 2px solid rgb(75, 74, 74);
+}
+.about{
+    width: 1000px;
+    margin: 5px;
+    border: 2px solid rgb(75, 74, 74);
+}
+.about h2{
+    text-align: center;
+}
+.about p{
+    text-align: justify;
+    margin-left: 25px;
+}
+.bttn1{
+    width: 20px;
+}
+.click{
+    margin-left: 25px;
+}
+.bttn_2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.bttn{
+    width: 100px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+footer{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(53, 53, 199);
+}
